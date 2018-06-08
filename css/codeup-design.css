@@ -15,7 +15,9 @@ p, nav {
     font-family: 'Abel', sans-serif;
 
 }
-
+.jumbotron {
+    text-align: center;
+}
 
 
 /* screen sizes at or above medium */
