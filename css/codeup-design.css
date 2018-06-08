@@ -1,7 +1,14 @@
 * {
     border: 1px solid red;
+    /*border-sizing: border-box;*/
+
 }
 
 body {
     /*background-color: indianred;*/
+}
+.stack {
+    height: 100px;
+    max-width: 20%;
+    float: initial;
 }
