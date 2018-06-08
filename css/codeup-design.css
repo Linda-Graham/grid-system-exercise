@@ -16,15 +16,44 @@ p, nav {
 
 }
 
-@media screen and (max-width:474px) {
 
+
+/* screen sizes at or above medium */
+@media only screen and (min-device-width : 768px) {
+    .hide-on-md {
+        display: none;
+    }
+}
+
+/* screen sizes below medium */
+@media only screen and (min-device-width: 522px) and (max-device-width : 768px) {
     .hide-on-sm {
         display: none;
     }
 
+    nav img {
+        position: relative;
+        float: left;
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
 }
 
+@media only screen and (max-device-width: 522px) {
+    .hide-on-xs {
+        display: none;
+    }
 
+    div img {
+        align-content: center;ter
+        height: 75px;
+        width: 75px;
+    }
+
+}
 
 
 

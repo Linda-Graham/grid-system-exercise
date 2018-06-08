@@ -13,11 +13,10 @@
     <title>Codeup Design</title>
 </head>
 <body>
-    <!--nav bar for screen sizes above 474px-->
-    <nav class="navbar mt-4 navbar-light bg-light hide-on-sm">
-        <img src="img/logo.png" width="60" height="60" alt="">
+    <!--nav bar for screen sizes above 768-->
+    <nav class="navbar mt-4 navbar-light bg-light hide-on-sm hide-on-xs">
         <div class="container">
-            <span class="navbar-brand mb-0 h1">codeup design</span>
+            <span class="navbar-brand mb-0 pl-5 h1">codeup design</span>
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link text-secondary" href="#">Services</a>
@@ -34,6 +33,49 @@
             </ul>
         </div>
     </nav>
+
+    <!--nav bar for screens 522 to 768-->
+    <nav class="navbar mt-4 navbar-light bg-light hide-on-md hide-on-xs">
+        <div class="container justify-content-center">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Work</a>
+                </li>
+                <span class="navbar-brand mb-0"><img src="img/logo.png" alt=""></span>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--nav bar for screens smaller than 522-->
+    <div class="container my-5 bg-light header-xs">
+        <span class="navbar-brand mb-0"><img src="img/logo.png" alt=""></span>
+    </div>
+    <nav>
+        <ul class="nav justify-content-center hide-on-md hide-on-sm">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
 
 
 
