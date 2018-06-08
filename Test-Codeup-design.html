@@ -8,15 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
-    <link rel="stylesheet" href="css/Test-codeup-design.css">
+    <link rel="stylesheet" href="css/codeup-design.css">
 
     <title>Codeup Design</title>
 </head>
 <body>
-<!--nav bar for screen sizes above 474px-->
-<nav class="navbar mt-4 navbar-light bg-light hide-on-sm">
+<!--nav bar for screen sizes above 768-->
+<nav class="navbar mt-4 navbar-light bg-light hide-on-sm hide-on-xs">
     <div class="container">
-        <span class="navbar-brand mb-0 h1">codeup design</span>
         <ul class="nav">
             <li class="nav-item">
                 <a class="nav-link text-secondary" href="#">Services</a>
@@ -34,6 +33,64 @@
     </div>
 </nav>
 
+
+<!--nav bar for screens 522 to 768-->
+<nav class="navbar mt-4 navbar-light bg-light hide-on-md hide-on-xs">
+    <div class="container justify-content-center">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Work</a>
+            </li>
+            <span class="navbar-brand mb-0"><img src="img/logo.png" alt=""></span>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="jumbotron">
+    <header class="">
+        <span class="navbar-brand display-2 mb-0 pl-5 h1">codeup design</span>
+
+        <h1 class="display-4">Visual Design & Web Development</h1>
+        <h3>From Park City, Utah</h3>
+    </header>
+</div>
+
+<!--nav bar for screens smaller than 522-->
+<div class="hide-on-md hide-on-sm">
+    <div class="container my-5 bg-light header-xs">
+        <img src="img/logo.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav>
+                    <ul class="nav justify-content-center hide-on-md hide-on-sm">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Optional JavaScript -->
