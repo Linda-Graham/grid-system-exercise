@@ -15,23 +15,19 @@ p, nav {
     font-family: 'Abel', sans-serif;
 
 }
-.jumbotron {
-    text-align: center;
-}
-
 
 /* screen sizes at or above medium */
-@media only screen and (min-device-width : 768px) {
-    .hide-on-md {
-        display: none;
-    }
-}
+/*@media only screen and (min-device-width : 769px) {*/
+    /*.hide-on-md {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 
-/* screen sizes below medium */
-@media only screen and (min-device-width: 522px) and (max-device-width : 768px) {
-    .hide-on-sm {
-        display: none;
-    }
+/*!* screen sizes below medium *!*/
+/*@media only screen and (min-device-width: 576px) and (max-device-width : 768px) {*/
+    /*.hide-on-sm {*/
+        /*display: none;*/
+    /*}*/
 
     nav img {
         position: relative;
@@ -42,12 +38,12 @@ p, nav {
         margin-top: -10px;
         margin-bottom: -10px;
     }
-}
+/*}*/
 
-@media only screen and (max-device-width: 522px) {
-    .hide-on-xs {
-        display: none;
-    }
+/*@media only screen and (max-device-width: 575px) {*/
+    /*.hide-on-xs {*/
+        /*display: none;*/
+    /*}*/
 
     div img {
         display: block;
@@ -57,7 +53,7 @@ p, nav {
         width: 75px;
     }
 
-}
+/*}*/
 
 
 
