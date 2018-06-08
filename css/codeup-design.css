@@ -48,7 +48,9 @@ p, nav {
     }
 
     div img {
-        align-content: center;ter
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         height: 75px;
         width: 75px;
     }
