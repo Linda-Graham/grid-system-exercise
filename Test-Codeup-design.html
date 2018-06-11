@@ -13,9 +13,12 @@
     <title>Codeup Design</title>
 </head>
 <body>
-<!--nav bar for screen sizes above 768-->
-<nav class="navbar mt-4 navbar-light bg-light hide-on-sm hide-on-xs">
-    <div class="container">
+<!--nav bar for lg-xl screens-->
+<nav class="navbar mt-4 navbar-light bg-light d-none d-lg-block">
+    <div class="container" id="nav-bar-1">
+
+        <span class="navbar-brand mb-0 pl-5 h1">codeup design</span>
+        <img id="logo" src="img/logo.png"/>
         <ul class="nav">
             <li class="nav-item">
                 <a class="nav-link text-secondary" href="#">Services</a>
@@ -33,9 +36,8 @@
     </div>
 </nav>
 
-
-<!--nav bar for screens 522 to 768-->
-<nav class="navbar mt-4 navbar-light bg-light hide-on-md hide-on-xs">
+<!--nav bar for md screens-->
+<nav class="navbar mt-4 navbar-light bg-light d-none d-md-block d-lg-none">
     <div class="container justify-content-center">
         <ul class="nav">
             <li class="nav-item">
@@ -54,43 +56,58 @@
         </ul>
     </div>
 </nav>
-<div class="jumbotron">
-    <header class="">
-        <span class="navbar-brand display-2 mb-0 pl-5 h1">codeup design</span>
 
-        <h1 class="display-4">Visual Design & Web Development</h1>
-        <h3>From Park City, Utah</h3>
-    </header>
+<!--nav bar for xs-sm sreens-->
+<div class="container-fluid my-5 bg-light d-block d-md-none">
+    <img src="img/logo.png" alt="">
 </div>
-
-<!--nav bar for screens smaller than 522-->
-<div class="hide-on-md hide-on-sm">
-    <div class="container my-5 bg-light header-xs">
-        <img src="img/logo.png" alt="">
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <nav>
-                    <ul class="nav justify-content-center hide-on-md hide-on-sm">
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+<div class="container d-block d-md-none">
+    <div class="row">
+        <div class="col">
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid">
+        <h1 class="display-4 text-center">Visual Design & Web Development</h1>
+        <h2 class="text-center">From Park City, Utah</h2>
+    </div>
+</div>
+
+<div class="container justify-content-center">
+    <div class="row">
+        <div class="col-md-2 d-none d-md-block">lorem ipsum</div>
+        <div class="col-6 col-md-2"><span class='dot dot-lg dot-red'></span></div>
+        <div class="col-6 col-md-2"><span class='dot dot-lg dot-orange'></span></div>
+        <div class="col-6 col-md-2"><span class='dot dot-lg dot-green'></span></div>
+        <div class="col-6 col-md-2"><span class='dot dot-lg dot-blue'></span></div>
+        <div class="col-md-2 d-none d-md-block">lorem ipsum</div>
+    </div>
+</div>
+
+
+
+
+
+
 
 
 <!-- Optional JavaScript -->
