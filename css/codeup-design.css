@@ -21,6 +21,20 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1000;
 }
 
+#headline {
+    font-size: 3.5em;
+    margin: .8em 0 0 0;
+}
+
+.nav-item a {
+    color: #1c1c1c;
+    margin-top: 10px;
+}
+
+.nav-item a:hover {
+    /*border: 1px solid red;*/
+    color: #2e61f6;
+}
 
 .jumbotron {
     background-color:transparent !important;
@@ -42,24 +56,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     z-index: 1000;
     top: -50%;
-}
-
-/*#logo {*/
-    /*width: 105px;*/
-    /*height: 105px;*/
-    /*position: relative;*/
-    /*top: 82px;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*z-index: 1000;*/
-/*}*/
-
-/*.colored-icons h3 {*/
-    /*border: 1px solid red;*/
-    /*!*display: block;*!*/
-    /*position: relative;*/
-    /*top:-47%;*/
-    /*z-index: 1000;*/
 }
 
 .selected-work {
@@ -98,9 +94,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*---Media Queries --*/
 @media (min-width: 576px) {
-    /*.navbar {*/
-        /*display: none;*/
-    /*}*/
+    #navbar-small {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
