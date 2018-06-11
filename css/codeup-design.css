@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+
+}
+
+#logo {
+    width: 105px;
+    height: 105px;
+    position: relative;
+    top: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1000;
+}
+
+
+.jumbotron {
+    background-color:transparent !important;
+}
+
+
+.colored-circles img {
+    /*position: relative;*/
+    border-radius: 50%;
+    z-index: 1;
+    /*margin: 0 auto 5px auto;*/
+    width: 100%;
+    max-width: 175px;
+}
+
+.colored-circle-text {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+    top: -50%;
+}
+
+/*#logo {*/
+    /*width: 105px;*/
+    /*height: 105px;*/
+    /*position: relative;*/
+    /*top: 82px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*z-index: 1000;*/
+/*}*/
+
+/*.colored-icons h3 {*/
+    /*border: 1px solid red;*/
+    /*!*display: block;*!*/
+    /*position: relative;*/
+    /*top:-47%;*/
+    /*z-index: 1000;*/
+}
+
+.selected-work {
+    padding-top: 10rem;
+}
+
+.selected-work img {
+    width: 100%;
+    height: auto;
+}
+
+.icons {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.icon-red {
+    background-color: #E6563B;
+}
+
+.icon-orange {
+    background-color: #EB9D3A;
+}
+
+.icon-green {
+    background-color: #7CB06C;
+}
+
+.icon-blue {
+    background-color: #00ABA9;
+}
+
+/*---Media Queries --*/
+@media (min-width: 576px) {
+    /*.navbar {*/
+        /*display: none;*/
+    /*}*/
+}
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
