@@ -1,82 +1,136 @@
-* {
-    /*border: 1px solid red;*/
-    /*border-sizing: border-box;*/
+html, body {
+    height: 100%;
+    width: 100%;
     font-family: 'Abel', sans-serif;
-
-}
-
-body {
     background-color: #f0f0f0;
+    box-sizing: border-box;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
-}
 
-p, nav {
-    font-family: 'Abel', sans-serif;
-
-}
-
-#nav-bar-1 {
-    margin-top: -60px;
 }
 
 #logo {
+    width: 105px;
+    height: 105px;
     position: relative;
-    float: left;
-    width: 100px;
-    height: auto;
-    margin: 0;
-    left: -500px;
-}
-
-nav img {
-    position: relative;
-    float: left;
-    height: 50px;
-    width: 50px;
-    margin-left: 10px;
-    margin-top: -10px;
-    margin-bottom: -10px;
-}
-
-div img {
-    display: block;
+    top: 82px;
     margin-left: auto;
     margin-right: auto;
-    height: 75px;
-    width: 75px;
+    z-index: 1000;
 }
 
-.dot {
-    display: inline-block;
+#headline {
+    font-size: 3.5em;
+    margin: .8em 0 0 0;
+}
+
+.nav-item a {
+    color: #1c1c1c;
+    margin-top: 10px;
+}
+
+.nav-item a:hover {
+    /*border: 1px solid red;*/
+    color: #2e61f6;
+}
+
+.jumbotron {
+    background-color:transparent !important;
+}
+
+
+.colored-circles img {
     border-radius: 50%;
-    border: 1px solid red;
-    /*width: 50%;*/
-    /*background-color: #eee;*/
-    /*height: 15px;*/
-    /*width: 15px;*/
-    /*margin: 0 2px;*/
+    z-index: 1;
+    width: 100%;
+    max-width: 175px;
 }
 
-.dot-red {
+.colored-circle-text {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+    top: -50%;
+}
+
+.selected-work {
+    padding-top: 10rem;
+}
+
+.featured-project {
+    width: 100%;
+    height: auto;
+}
+
+.featured-project-security {
+    width: 100%;
+    height: 95%;
+}
+
+.icons {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.icon-red {
     background-color: #E6563B;
 }
 
-.dot-orange {
+.icon-orange {
     background-color: #EB9D3A;
 }
-.dot-green {
+
+.icon-green {
     background-color: #7CB06C;
 }
 
-.dot-blue {
+.icon-blue {
     background-color: #00ABA9;
 }
 
-.dot-lg {
-    /*margin: 0 4px;*/
-    height: 200px;
-    width: 200px;
+/*---Media Queries --*/
+@media (min-width: 576px) {
+    #navbar-small {
+        display: none;
+    }
 }
+
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

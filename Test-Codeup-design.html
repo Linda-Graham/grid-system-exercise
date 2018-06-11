@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -7,114 +7,158 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
+
+    <!--Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!-- Internal CSS -->
     <link rel="stylesheet" href="css/codeup-design.css">
 
-    <title>Codeup Design</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
+
+    <title>Hello, world!</title>
 </head>
 <body>
-<!--nav bar for lg-xl screens-->
-<nav class="navbar mt-4 navbar-light bg-light d-none d-lg-block">
-    <div class="container" id="nav-bar-1">
 
-        <span class="navbar-brand mb-0 pl-5 h1">codeup design</span>
-        <img id="logo" src="img/logo.png"/>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<!--nav bar for md screens-->
-<nav class="navbar mt-4 navbar-light bg-light d-none d-md-block d-lg-none">
-    <div class="container justify-content-center">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Work</a>
-            </li>
-            <span class="navbar-brand mb-0"><img src="img/logo.png" alt=""></span>
-            <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-<!--nav bar for xs-sm sreens-->
-<div class="container-fluid my-5 bg-light d-block d-md-none">
-    <img src="img/logo.png" alt="">
-</div>
-<div class="container d-block d-md-none">
+<!-- Navigation -->
+<div class="container-fluid">
     <div class="row">
-        <div class="col">
-            <nav>
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-secondary" href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+        <img id="logo" src="img/logo.png"/>
+    </div>
+</div>
+<nav class="navbar navbar-light bg-light p-4">
+</nav>
+
+<div class="container-fluid col-12 mt-3">
+    <p class="text-center" id="headline">codeup design</p>
+    <div class="row justify-content-center text-uppercase" id="navbar-small">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+
+    </div>
+</div>
+
+
+
+<!--- Jumbotron -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4 text-center text-uppercase">Visual Design & Web Development</h1>
+        <br>
+        <h1 class="text-center text-uppercase mt-5">From Park City, Utah</h1>
+    </div>
+</div>
+
+
+<!-- Colored Circles -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 col-sm-3 colored-circles text-center">
+            <img class="mx-auto d-block" src="http://via.placeholder.com/150x150" alt=""><h3 class="colored-circle-text">Design</h3>
+        </div>
+        <div class="col-6 col-sm-3 colored-circles text-center">
+            <img class="mx-auto d-block" src="http://via.placeholder.com/150x150" alt=""><h3 class="colored-circle-text">Develop</h3>
+        </div>
+        <div class="col-6 col-sm-3 colored-circles text-center">
+            <img class="mx-auto d-block" src="http://via.placeholder.com/150x150" alt=""><h3 class="colored-circle-text">Support</h3>
+        </div>
+        <div class="col-6 col-sm-3 colored-circles text-center">
+            <img class="mx-auto d-block" src="http://via.placeholder.com/150x150" alt=""><h3 class="colored-circle-text">Host</h3>
         </div>
     </div>
 </div>
-</div>
+<hr class="d-none d-sm-block">
 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container-fluid">
-        <h1 class="display-4 text-center">Visual Design & Web Development</h1>
-        <h2 class="text-center">From Park City, Utah</h2>
+<!--- Three Column Section -->
+<div class="container my-5">
+    <div class="row justify-content-center px-5">
+        Selected Work
     </div>
 </div>
 
-<div class="container justify-content-center">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-2 d-none d-md-block">lorem ipsum</div>
-        <div class="col-6 col-md-2"><span class='dot dot-lg dot-red'></span></div>
-        <div class="col-6 col-md-2"><span class='dot dot-lg dot-orange'></span></div>
-        <div class="col-6 col-md-2"><span class='dot dot-lg dot-green'></span></div>
-        <div class="col-6 col-md-2"><span class='dot dot-lg dot-blue'></span></div>
-        <div class="col-md-2 d-none d-md-block">lorem ipsum</div>
+        <div class="col-md-6">
+            <img class="featured-project" src="img/apple-ipad.jpg"/>
+            <div class="row">
+                <div class="col-6">
+                    Featured Projects
+                </div>
+                <div class="col-6 d-flex justify-content-end text-center">
+                    <span class="icons icon-red"><h6 class="mt-1">D</h6></span>
+                    <span class="icons icon-orange"><h6 class="mt-1">D</h6></span>
+                    <span class="icons icon-green"><h6 class="mt-1">S</h6></span>
+                    <span class="icons icon-blue"><h6 class="mt-1">H</h6></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 d-none d-md-block">
+            <img class="featured-project" src="img/macbook.jpg"/>
+            <div class="row">
+                <div class="col-6">
+                    Featured Projects
+                </div>
+                <div class="col-6 d-flex justify-content-end text-center">
+                    <span class="icons icon-red"><h6 class="mt-1">D</h6></span>
+                    <span class="icons icon-orange"><h6 class="mt-1">D</h6></span>
+                    <span class="icons icon-green"><h6 class="mt-1">S</h6></span>
+                    <span class="icons icon-blue"><h6 class="mt-1">H</h6></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid d-none d-md-block">
+    <div class="row">
+        <div class="col-md-6 col-lg-9">
+            <img class="featured-project" src="img/man.jpg"/>
+            <div class="row">
+                <div class="col-6">
+                    Featured Projects
+                </div>
+                <div class="col-6 d-flex justify-content-end text-center">
+                    <span class="icons icon-red"><h6 class="mt-1">D</h6></span>
+                    <span class="icons icon-orange"><h6 class="mt-1">D</h6></span>
+                    <span class="icons icon-green"><h6 class="mt-1">S</h6></span>
+                    <span class="icons icon-blue"><h6 class="mt-1">H</h6></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img class="featured-project-security" src="img/security.jpg"/>
+            <div class="row">
+                <div class="col-6">
+                    Featured Projects
+                </div>
+                <div class="col-6 d-flex justify-content-end text-center">
+                    <span class="icons icon-red"><h6 class="mt-1">D</h6></span>
+                    <span class="icons icon-orange"><h6 class="mt-1">D</h6></span>
+                    <span class="icons icon-green"><h6 class="mt-1">S</h6></span>
+                    <span class="icons icon-blue"><h6 class="mt-1">H</h6></span>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-
-
-
-
-
-
-
-<!-- Optional JavaScript -->
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

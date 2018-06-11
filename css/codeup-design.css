@@ -3,6 +3,7 @@ html, body {
     width: 100%;
     font-family: 'Abel', sans-serif;
     background-color: #f0f0f0;
+    box-sizing: border-box;
 }
 
 
@@ -42,10 +43,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .colored-circles img {
-    /*position: relative;*/
     border-radius: 50%;
     z-index: 1;
-    /*margin: 0 auto 5px auto;*/
     width: 100%;
     max-width: 175px;
 }
@@ -62,9 +61,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10rem;
 }
 
-.selected-work img {
+.featured-project {
     width: 100%;
     height: auto;
+}
+
+.featured-project-security {
+    width: 100%;
+    height: 95%;
 }
 
 .icons {
